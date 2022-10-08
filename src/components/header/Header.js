@@ -89,7 +89,7 @@ function Header(props) {
                 Home
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 className="ec"
                 to="/education"
@@ -99,7 +99,7 @@ function Header(props) {
               >
                 Education and Certifications
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 className="xp"
@@ -133,7 +133,7 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="cr"
                 href="https://play.google.com/store/apps/details?id=com.picle.journalify"
@@ -143,7 +143,7 @@ function Header(props) {
               >
                 Journalify
               </a>
-            </li>
+            </li> */}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
